@@ -1,4 +1,5 @@
 let async = require('async');
+
 let concurrencyCount = 0;
 let fetchUrl = function (url, callback) {
     let delay = parseInt((Math.random() * 100000000) % 2000, 10);
